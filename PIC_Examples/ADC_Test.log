@@ -1,0 +1,10 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F452 -DL -O11111114 -fo8 -N"C:\Users\youssef\Desktop\Coventry\Year 2\Embeded systems\PIC_Examples\ADC_Test.mcppi" -SP"C:\Users\youssef\mikroC PRO for PIC\Defs\" -SP"C:\Users\youssef\mikroC PRO for PIC\uses\P18\" -SP"C:\Users\youssef\Desktop\Coventry\Year 2\Embeded systems\PIC_Examples\" -SP"C:\Users\youssef\Desktop\Coventry\Year 2\Embeded systems\PIC_Examples\ADC_Test\" -IP"C:\Users\youssef\mikroC PRO for PIC\uses\P18\" "ADC_Test.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_ADC_A_C.mcl"	 
+hint: 0	1139	Available RAM: 1515 [bytes], Available ROM: 32768 [bytes]	 
+diagnostics: 0	122	Compilation Started	P18F452.c
+diagnostics: 1178	123	Compiled Successfully	P18F452.c
+diagnostics: 0	122	Compilation Started	ADC_Test.c
+error: 9	324	Undeclared identifier 'ANSELA' in expression	ADC_Test.c
+error: 10	324	Undeclared identifier 'ANSELH' in expression	ADC_Test.c
+error: 11	324	Undeclared identifier 'C1ON_bit' in expression	ADC_Test.c
+error: 12	324	Undeclared identifier 'C2ON_bit' in expression	ADC_Test.c
+error: 0	102	Finished (with errors): 30 Oct 2021, 16:53:12	ADC_Test.mcppi

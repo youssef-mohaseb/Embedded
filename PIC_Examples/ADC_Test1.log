@@ -1,0 +1,9 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F887 -DL -O11111114 -fo8 -N"C:\Users\youssef\Desktop\Coventry\Year 2\Embeded systems\PIC_Examples\ADC_Test1.mcppi" -SP"C:\Users\youssef\mikroC PRO for PIC\Defs\" -SP"C:\Users\youssef\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\youssef\Desktop\Coventry\Year 2\Embeded systems\PIC_Examples\" -SP"C:\Users\youssef\Desktop\Coventry\Year 2\Embeded systems\PIC_Examples\ADC_Test\" -SP"C:\Users\youssef\mikroC PRO for PIC\Packages\FT800\Uses\" -IP"C:\Users\youssef\mikroC PRO for PIC\Uses\P16\" -IP"C:\Users\youssef\mikroC PRO for PIC\Packages\FT800\Uses\" "ADC_Test1.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_ADC_88X.mcl" "__Lib_SPI_c345.mcl" "__Lib_UART_c67.mcl"	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	122	Compilation Started	ADC_Test1.c
+error: 9	324	Undeclared identifier 'ANSELA' in expression	ADC_Test1.c
+error: 28	315	Invalid expression	ADC_Test1.c
+error: 28	402	; expected, but '`' found	ADC_Test1.c
+error: 30	424	'}' expected ';' found	ADC_Test1.c
+error: 35	424	'}' expected ';' found	ADC_Test1.c
+error: 0	102	Finished (with errors): 03 Nov 2021, 18:15:58	ADC_Test1.mcppi
