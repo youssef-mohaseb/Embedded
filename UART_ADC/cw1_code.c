@@ -24,9 +24,9 @@ void main() {
         PORTD = 0xff;              // pORT D IS ALL ON
         UART1_Write(potentiometer);
         UART1_Write('-');
-        UART1_Write_Text("potentiometer greater than 169"); // PRINT ON UART
-        UART1_write(13);                        // Enter new line
-        UART1_write(10);                        // Space in terminal
+        UART1_Write_Text("potentiometer greater than 169"); // print on UART Terminal If Potentiometer value > 169 this text ("potentiometer less than 169")
+        UART1_write(13);                                    // Enter new line
+        UART1_write(10);                                    // Space in terminal
 
     }
     else   // OTHERWISE
