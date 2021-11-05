@@ -1,6 +1,6 @@
 /*
-     author:
-     Project name: Yousef Sherif
+     author: Yousef Sherif Mostafa Amin Mohaseb 
+     Project name: Embedded Project 
      Project Description:
      Date:
 
