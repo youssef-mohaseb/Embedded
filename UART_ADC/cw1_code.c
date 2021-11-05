@@ -31,7 +31,7 @@ void main() {
     }
     else   // OTHERWISE
     {
-      PORTD = 0x0f;                                                // PORT D HALF OF HALF ON
+      PORTD = 0x0f;                                                // PORT D HALF OF & HALF ON
       UART1_Write(potentiometer);
       UART1_Write('-');
       UART1_Write_Text("potentiometer less than 169");        // print on UART Terminal If Potentiometer value < 169 this text ("potentiometer less than 169")
